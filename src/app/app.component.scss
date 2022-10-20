@@ -1,0 +1,12 @@
+@media(max-width:420px){
+    .w-limited{
+        .col-6{
+            width: 100%;
+
+            &:last-child{
+                justify-content: start !important;
+                margin-top: 1rem;
+            }
+        }
+    }
+}
