@@ -6,7 +6,7 @@
     <form [formGroup]="todosForm" >
         <div class="row"> 
             <div class="col-md-2">
-                <label>TITLE :</label>              
+                <label>Title :</label>              
             </div>
             <div class="col-md-10">
                 <textarea  class="form-control input-lg" [class.invalid]="this.submitted && !todosForm.controls['title'].valid" rows="3" cols="55" name="comment" value="" formControlName="title" placeholder="Enter the task" ></textarea>
